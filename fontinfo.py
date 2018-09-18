@@ -159,7 +159,7 @@ def _cmap_handler(tag, data):
 
 @handles(b'glyf')
 def _glyf_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'head')
 def _head_handler(tag, data):
@@ -235,11 +235,11 @@ def _hhea_handler(tag, data):
 
 @handles(b'hmtx')
 def _hmtx_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'loca')
 def _loca_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'maxp')
 def _maxp_handler(tag, data):
@@ -431,15 +431,15 @@ def _cvt__handler(tag, data):
 
 @handles(b'fpgm')
 def _fpgm_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'hdmx')
 def _hdmx_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'kern')
 def _kern_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'OS/2')
 def _OS_2_handler(tag, data):
@@ -565,127 +565,127 @@ def _prep_handler(tag, data):
 
 @handles(b'acnt')
 def _acnt_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'ankr')
 def _ankr_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'bdat')
 def _bdat_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'bhed')
 def _bhed_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'bloc')
 def _bloc_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'bsln')
 def _bsln_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'cvar')
 def _cvar_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'EBSC')
 def _EBSC_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'fdsc')
 def _fdsc_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'feat')
 def _feat_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'fmtx')
 def _fmtx_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'fond')
 def _fond_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'fvar')
 def _fvar_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'gasp')
 def _gasp_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'gcid')
 def _gcid_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'gvar')
 def _gvar_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'just')
 def _just_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'kerx')
 def _kerx_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'lcar')
 def _lcar_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'ltag')
 def _ltag_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'meta')
 def _meta_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'mort')
 def _mort_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'morx')
 def _morx_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'opbd')
 def _opbd_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'prop')
 def _prop_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'sbix')
 def _sbix_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'trak')
 def _trak_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'vhea')
 def _vhea_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'vmtx')
 def _vmtx_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'xref')
 def _xref_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'Zapf')
 def _Zapf_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 #
 # Other tables seen in the wild
@@ -693,131 +693,131 @@ def _Zapf_handler(tag, data):
 
 @handles(b'avar')
 def _avar_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'BASE')
 def _BASE_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'BDF ')
 def _BDF__handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'CBDT')
 def _CBDT_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'CBLC')
 def _CBLC_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'COLR')
 def _COLR_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'CPAL')
 def _CPAL_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'DSIG')
 def _DSIG_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'EBDT')
 def _EBDT_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'EBLC')
 def _EBLC_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'edt0')
 def _edt0_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'Feat')
 def _Feat_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'FFTM')
 def _FFTM_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'GDEF')
 def _GDEF_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'Glat')
 def _Glat_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'Gloc')
 def _Gloc_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'GPOS')
 def _GPOS_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'GSUB')
 def _GSUB_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'HVAR')
 def _HVAR_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'JSTF')
 def _JSTF_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'LINO')
 def _LINO_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'LTSH')
 def _LTSH_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'MATH')
 def _MATH_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'MTfn')
 def _MTfn_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'PCLT')
 def _PCLT_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'PfEd')
 def _PfEd_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'Silf')
 def _Silf_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'Sill')
 def _Sill_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'Silt')
 def _Silt_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'TSIV')
 def _TSIV_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'VDMX')
 def _VDMX_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 @handles(b'webf')
 def _webf_handler(tag, data):
-    pass
+    print(f'{tag} table contains {len(data)} bytes')
 
 
 if __name__ == '__main__':
